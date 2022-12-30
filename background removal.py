@@ -43,7 +43,7 @@ while True:
         # Imagen final.
         final_image = np.where(person  ==  0 , mountain , person)
         # Mostrar la imagen final.
-        cv2.imshow('frame' , frame)
+        cv2.imshow('frame' , final_image)
 
         # Esperar 1ms antes de mostrar otro cuadro.
         code = cv2.waitKey(1)
